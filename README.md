@@ -77,4 +77,4 @@
 Interfaces are a powerful tool to use for decoupling. Classes can communicate through interfaces rather than other concrete classes, and any class can be on the other end of that communication simply by implementing the interface.
   - Block Boxes - As long as interfaces match we do not care how its component is implemented.
 
-- Object Pool - 
+- Object Pool - A pool of pre-initialized objects whose initialization is havyweight. Every time we need such an object we can take one from the pool.
