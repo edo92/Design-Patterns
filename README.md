@@ -73,6 +73,8 @@
 - Factory Pattern - The factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
     - A combination of the single responibility and Open/Close prinicpales
 
-- Loose Coupling
+- Loose Coupling - Software parts that communicate with each other have little to no knowlage of each oother's actual implementation. simply put Loose coupling is achieved by means of a design that promotes single-responsibility and separation of concerns.
+Interfaces are a powerful tool to use for decoupling. Classes can communicate through interfaces rather than other concrete classes, and any class can be on the other end of that communication simply by implementing the interface.
+  - Block Boxes - As long as interfaces match we do not care how its component is implemented.
 
-- Object Pool
+- Object Pool - 
