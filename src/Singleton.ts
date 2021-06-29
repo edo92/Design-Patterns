@@ -11,8 +11,12 @@ class Singleton {
     }
 }
 
-const singleton1 = new Singleton(1);
-const singleton2 = new Singleton(2);
+export const show = () => { 
+    const singleton1 = new Singleton(1);
+    const singleton2 = new Singleton(2);
 
-console.log('--', singleton1.id);
-console.log('--', singleton2.id)
+    console.log('--', singleton1.id);
+    console.log('--', singleton2.id)
+}
+
+show();

@@ -75,10 +75,14 @@ class Fan implements Observer {
   }
 }
 
-const weatherStation = new WeatherStation();
-const tempDisplay = new TemperatureDisplay(weatherStation);
-const fan = new Fan(weatherStation);
+export const show = () => {
+  const weatherStation = new WeatherStation();
+  const tempDisplay = new TemperatureDisplay(weatherStation);
+  const fan = new Fan(weatherStation);
 
-// Can be in loop
-weatherStation.setTemperature(30);
-weatherStation.setTemperature(10);
+  // Can be in loop
+  weatherStation.setTemperature(30);
+  weatherStation.setTemperature(10);
+}
+
+show();

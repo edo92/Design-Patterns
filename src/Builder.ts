@@ -42,5 +42,10 @@ class Director {
     }
 }
 
-const product1 = Director.construct();
-console.log('product', product1.parts);
+// Usage
+export const show = () => {
+    const product1 = Director.construct();
+    console.log('product', product1.parts);
+}
+
+show();

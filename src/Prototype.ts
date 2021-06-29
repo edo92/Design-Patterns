@@ -15,7 +15,10 @@ class MyClassX implements IProtoType {
     }
 }
 
-const obj1 = new MyClassX([1, 2, 3, 4]);
-obj1.clone()
+export const show = () => {
+    const obj1 = new MyClassX([1, 2, 3, 4]);
+    obj1.clone()
+    console.log(obj1.field)
+}
 
-console.log(obj1.field)
+show();
