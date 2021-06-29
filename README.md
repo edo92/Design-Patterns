@@ -52,3 +52,26 @@
 
 ### Dependency Inversion
 - Imagine as Abstractions are interfaces, it is a form of loosely coupling.
+
+
+<br/>
+<br/>
+
+
+## Creational Design Patterns
+- Design Patterns /  group of design patterns
+    - Creational - Control of creating objects
+    - Structural - App's structure
+    - Behavioral - Determain ways of application flow and how application communicates with eachother.
+
+- Singleton Pattern - Only one instace will be created, and new instance will refere back to itself in the memory.
+    - Shared State
+    - Avoid Long 
+    - Cross Class Communication
+    - Perfectly represents unique items
+
+- Factory Pattern
+
+- Loose Coupling
+
+- Object Pool

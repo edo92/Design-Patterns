@@ -1,5 +1,3 @@
-// Only one instace will be created, which will Points back to itself
-
 class Singleton {
     static instance: Singleton;
     id: number;
