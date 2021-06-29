@@ -17,3 +17,6 @@
 - Error handling must be in separate function
 - fetch -> filter must be separated
 - Single responibility function must return fetched data, which can be used in another function
+
+### Open/Close Principal
+- Instead of adding code to existing class, Open/close Principal requires us to create new class with new logic and extend it with new class/logic
