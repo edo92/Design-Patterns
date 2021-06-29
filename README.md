@@ -24,7 +24,7 @@
 ### Liskov Substitution principal
 - Superclass shall be replaceable with objects of its subclasses and have the same result;
 - Examples
-    Bad Example
+    #### Bad Example
     ```
         public class Bird{
             public void fly(){}
@@ -37,7 +37,7 @@
     ```
     Ostrich is a bird, but it can't fly, Ostrich class is a subtype of class Bird, but it shouldn't be able to use the fly method, that means we are breaking the LSP principle.
 
-    Good Example
+    #### Good Example
     ```
         public class Bird{}
         public class FlyingBirds extends Bird{
