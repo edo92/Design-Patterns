@@ -43,7 +43,7 @@ class Director {
 }
 
 // Usage
-export const show = () => {
+ const show = () => {
     const product1 = Director.construct();
     console.log('product', product1.parts);
 }
