@@ -1,6 +1,4 @@
-# TS Design Patterns
-
-<br/>
+# Principals
 
 ## SOLID Principal
 - Single Responsibility - A class Should be responsible for a single part of the functionality
@@ -19,7 +17,7 @@
 - Single responibility function must return fetched data, which can be used in another function
 
 ### Open/Close Principal
-- Instead of adding code to existing class, Open/close Principal requires us to create new class with new logic and extend it with new class/logic
+- Instead of adding code to existing class, Open/close Principal requires us to create new class with and extend it with new class/logic
 
 ### Liskov Substitution principal
 - Superclass shall be replaceable with objects of its subclasses and have the same result;
@@ -46,3 +44,7 @@
         public class Duck extends FlyingBirds{}
         public class Ostrich extends Bird{} 
     ```
+
+
+### Interface Segregation
+- segregation principle states that no client should be forced to depend on methods it does not use. Class implements multiple segregated(split) interfaces, so other classes can you one of interfaces without having unused methods.
