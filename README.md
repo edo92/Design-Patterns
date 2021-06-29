@@ -20,3 +20,29 @@
 
 ### Open/Close Principal
 - Instead of adding code to existing class, Open/close Principal requires us to create new class with new logic and extend it with new class/logic
+
+### Liskov Substitution principal
+- Superclass shall be replaceable with objects of its subclasses and have the same result;
+- Examples
+    Bad Example
+    ```
+        public class Bird{
+            public void fly(){}
+        }
+        public class Duck extends Bird{}
+    ```
+    The duck can fly because it is a bird, but what about this:
+    ```
+        public class Ostrich extends Bird{}
+    ```
+    Ostrich is a bird, but it can't fly, Ostrich class is a subtype of class Bird, but it shouldn't be able to use the fly method, that means we are breaking the LSP principle.
+
+    Good Example
+    ```
+        public class Bird{}
+        public class FlyingBirds extends Bird{
+            public void fly(){}
+        }
+        public class Duck extends FlyingBirds{}
+        public class Ostrich extends Bird{} 
+    ```

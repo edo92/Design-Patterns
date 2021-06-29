@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "adapter": "ts-node src/Adapter",
-    "decorator": "ts-node src/Decorator",
-    "observer": "ts-node src/Observer"
+    "start": "ts-node test"
   },
   "dependencies": {
     "@types/node": "^15.12.4",
