@@ -48,3 +48,7 @@
 
 ### Interface Segregation
 - segregation principle states that no client should be forced to depend on methods it does not use. Class implements multiple segregated(split) interfaces, so other classes can you one of interfaces without having unused methods.
+
+
+### Dependency Inversion
+- Imagine as Abstractions are interfaces, it is a form of loosely coupling.
