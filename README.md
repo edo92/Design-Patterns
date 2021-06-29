@@ -1,2 +1,3 @@
-# Design-Patterns
-TS Design Patterns
+# TS Design Patterns
+
+- Adapter [more examples](https://www.dofactory.com/javascript/design-patterns/adapter)
