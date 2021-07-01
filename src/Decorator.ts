@@ -81,6 +81,6 @@ export const show = () => {
   myTesla = new EnhancedAutoPilot(myTesla);
   console.log(myTesla.cost());
   console.log(myTesla.getDescription());
-}
+};
 
 show();
