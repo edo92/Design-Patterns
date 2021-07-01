@@ -17,7 +17,7 @@
 - Single responibility function must return fetched data, which can be used in another function
 
 ### Open/Close Principal
-- Instead of adding code to existing class, Open/close Principal requires us to create new class with and extend it with new class/logic
+- Instead of adding code to existing class, Open/close Principal requires us to create new class and extend it with that new class/logic
 
 ### Liskov Substitution principal
 - Superclass shall be replaceable with objects of its subclasses and have the same result;
@@ -73,8 +73,24 @@
 - Factory Pattern - The factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
     - A combination of the single responibility and Open/Close prinicpales
 
-- Loose Coupling - Software parts that communicate with each other have little to no knowlage of each oother's actual implementation. simply put Loose coupling is achieved by means of a design that promotes single-responsibility and separation of concerns.
+- Loose Coupling - Software parts that communicate with each other have little to no knowlage of each other's actual implementation. simply put Loose coupling is achieved by means of a design that promotes single-responsibility and separation of concerns.
 Interfaces are a powerful tool to use for decoupling. Classes can communicate through interfaces rather than other concrete classes, and any class can be on the other end of that communication simply by implementing the interface.
   - Block Boxes - As long as interfaces match we do not care how its component is implemented.
 
 - Object Pool - A pool of pre-initialized objects whose initialization is havyweight. Every time we need such an object we can take one from the pool.
+
+<br/>
+<br/>
+
+## Dependency Injection
+- Di Container/ioc container - The DI principle is a technique that is used to remove internal dependencies from the implementation by enabling these dependencies to be injected externally.
+  
+- Reflection - The ability to make use of code metadata to provide runtime information and inspection data about classese, interfaces and types.
+
+- Inversion of Control (IoC) - Object do not create other object on which they rely to do thir work. Instead they get the objects that they need from an outside source (exm. config file). Gives us more abstruction (loosely coupled) rather than concret implementation.
+  
+### Decorators Typesciprt
+- Class
+- Method
+- Property
+- Accessors

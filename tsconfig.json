@@ -4,5 +4,7 @@
     "target": "es2016",
     "removeComments": true,
     "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }

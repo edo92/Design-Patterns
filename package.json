@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ts-node test"
+    "start": "ts-node ioc"
   },
   "dependencies": {
     "@types/node": "^15.12.4",
