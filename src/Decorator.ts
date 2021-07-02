@@ -73,7 +73,7 @@ class RearFacingSeats extends CarOptions {
 }
 
 export const show = () => {
-  let myTesla = new ModelS();
+  let myTesla = new ModelS(); // || ModelX
   myTesla = new RearFacingSeats(myTesla);
   console.log(myTesla.cost());
   console.log(myTesla.getDescription());
