@@ -122,4 +122,8 @@
 ## Structural Design Patterns
 - Decorator Pattern - In object-oriented programming, the decorator pattern is a design pattern that allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.
 
-- 
+- Adapter Pattern -  The adapter pattern is a software design pattern that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+
+- Facade Pattern - A facade is an object that serves as a front-facing interface masking more complex underlying or structural code.
+
+- Composite - The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.
