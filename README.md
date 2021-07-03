@@ -135,7 +135,7 @@
 - Composite - The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.
 
 ## Behavioral Patterns 
-- Strategy Pattern - 
+- Strategy Pattern - The strategy pattern is a behavioral software design pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use
   
 - Observer Pattern - 
   
