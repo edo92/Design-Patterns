@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ts-node ioc"
+    "start": "ts-node src/Facade"
   },
   "dependencies": {
     "@types/node": "^15.12.4",
