@@ -139,7 +139,7 @@
   
 - Observer Pattern -  pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling.
   
-- Command Pattern - 
+- Command Pattern - the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time.
   
 - Template Method - 
   
