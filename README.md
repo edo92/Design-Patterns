@@ -137,7 +137,7 @@
 ## Behavioral Patterns 
 - Strategy Pattern - The strategy pattern is a behavioral software design pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use
   
-- Observer Pattern - 
+- Observer Pattern -  pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling.
   
 - Command Pattern - 
   
